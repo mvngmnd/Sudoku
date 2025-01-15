@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="SudokuBoard.fs" />
+        <Compile Include="Helpers.fs" />
+        <Compile Include="SudokuStrategy.fs" />
+        <Compile Include="Solvers\SimpleCandidateReduce.fs" />
+        <Compile Include="Solvers\NakedSingle.fs" />
+        <Compile Include="Solvers\HiddenSingle.fs" />
+    </ItemGroup>
+
+</Project>
